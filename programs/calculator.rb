@@ -82,7 +82,7 @@ loop do
       puts "Your options are 'a', 's', 'm' or 'd'"
   end
 
-  puts ">> Would you like to try again? (y/n)"
+  puts ">> Would you like to try again? (y/n - or any other key)"
   answer = gets.chomp.downcase
 
   puts "Goodbye!" if answer != "y"
